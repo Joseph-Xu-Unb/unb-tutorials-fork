@@ -7,4 +7,3 @@
 - Check registered dependencies, image paths, source revision and proposed catalog metadata during import. Never replace other collections or central configuration wholesale.
 - Any physical test needs separate board, firmware, program and outcome evidence. This introduction is runnable in the simulator and makes no physical-validation claim.
 
-Catalog and lesson delivery remain dependent on [#185](https://github.com/UNB-ECE/unb-platform/issues/185)/[#186](https://github.com/UNB-ECE/unb-platform/issues/186). Adding content here does not by itself switch the deployed editor's home page.
