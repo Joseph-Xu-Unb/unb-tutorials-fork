@@ -14,7 +14,7 @@ Introductory editor practice. Course-specific learning objectives and assessment
     "imageUrl": "/unb-tutorials/engg1102/static/getting-started.svg",
     "label": "Instructor preview",
     "labelClass": "orange ribbon"
-  }
+  },
   {
     "name": "micro led tutorial",
     "description": "Display a radom points in the displayboard.",
