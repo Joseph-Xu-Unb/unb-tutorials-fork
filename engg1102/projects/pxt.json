@@ -10,7 +10,8 @@
         "getting-started.md",
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "micro-led.md"
     ],
     "testFiles": [
         "test.ts"

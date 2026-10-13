@@ -1,5 +1,6 @@
 # ENGG 1102: getting started with UNB IDE
 
+
 ## Welcome @showdialog
 
 Practice building and testing a small micro:bit program in UNB IDE. This is an introductory editor exercise, not a statement of ENGG 1102 syllabus or assessment requirements. You can complete it in the simulator. For an optional download, ask your instructor for a micro:bit or an approved UNBdev.board, a data-capable USB cable and the correct power setup.
