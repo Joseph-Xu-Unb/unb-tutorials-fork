@@ -7,3 +7,29 @@
 - Check registered dependencies, image paths, source revision and proposed catalog metadata during import. Never replace other collections or central configuration wholesale.
 - Any physical test needs separate board, firmware, program and outcome evidence. This introduction is runnable in the simulator and makes no physical-validation claim.
 
+
+
+
+> Open this page at [https://joseph-xu-unb.github.io/unb-tutorials-fork/](https://joseph-xu-unb.github.io/unb-tutorials-fork/)
+
+## Use as Extension
+
+This repository can be added as an **extension** in MakeCode.
+
+* open [/](/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for **https://github.com/joseph-xu-unb/unb-tutorials-fork/engg1102** and import
+
+## Edit this project
+
+To edit this repository in MakeCode.
+
+* open [/](/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/joseph-xu-unb/unb-tutorials-fork/engg1102** and click import
+
+#### Metadata (used for search, rendering)
+
+* for PXT/microbit
+<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>

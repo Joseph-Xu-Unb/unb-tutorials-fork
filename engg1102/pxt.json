@@ -1,0 +1,29 @@
+{
+    "name": "unb-tutorials-fork-engg1102",
+    "dependencies": {
+        "core": "*",
+        "unb-tutorials-fork": "github:joseph-xu-unb/unb-tutorials-fork"
+    },
+    "files": [
+        "README.md",
+        "catalog.md",
+        "projects/README.md",
+        "projects/getting-started.md",
+        "projects/main.blocks",
+        "projects/main.ts",
+        "projects/micro-led.md",
+        "projects/pxt.json",
+        "projects/test.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.1.1",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
