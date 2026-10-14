@@ -2,7 +2,7 @@
 > Open this page at [https://unb-ece.github.io/unb-tutorials/](https://unb-ece.github.io/unb-tutorials/)
 # engg1102 lessons
   now it is from the unb-tutorials-fork repo
-  testing the token scope and branch and pull request button and warning 
+  testing the token scope and branch and pull request button and warning,jump error
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
