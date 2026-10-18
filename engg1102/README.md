@@ -1,5 +1,7 @@
 # ENGG 1102
 
+
+
 [Getting started with UNB IDE](lessons/getting-started.md) is a small simulator-first exercise: show a greeting, respond to logical button A with a heart, and clear the micro:bit display with logical button B. It does not use BLiXels or declare course syllabus or assessment requirements.
 
 - Publication reviewer: the UNB-ECE repository maintainer. Course/instructional approval from the course instructor is pending; retain the **Instructor preview** card label.
