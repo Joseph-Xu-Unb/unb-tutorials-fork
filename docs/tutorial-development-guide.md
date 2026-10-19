@@ -308,3 +308,45 @@ Once the pull request is reviewed and merged into `UNB-ECE/unb-tutorials:main`:
 4. Click the card:
    - The editor must launch the interactive tutorial directly.
    - It must **not** return a 404 or fall back to the default editor shell (`index.html`).
+
+---
+
+## 11. Post-Merge Cleanup: Sync Your Fork and Delete the Topic Branch
+
+After the pull request is reviewed and merged into `UNB-ECE/unb-tutorials:main`, clean up your fork before starting the next lesson. Do this after **every** merge; it prevents the accumulated-diff problem that produced the noisy earlier fork pull requests.
+
+### 11.1 Sync your fork's `main`
+
+1. In the UNB IDE GitHub dashboard, click **Sync Fork**; or, on GitHub.com, open your fork and choose **Sync fork → Update branch**.
+2. Confirm that your fork's `main` matches `UNB-ECE/unb-tutorials:main` and that the merge commit for your pull request is present.
+
+> [!IMPORTANT]
+> Your fork's `main` must always mirror upstream. **Do not merge your topic branch into your fork's `main`.** Changes reach `main` only by syncing from `UNB-ECE/unb-tutorials`.
+
+### 11.2 Delete the completed topic branch
+
+- Delete the topic branch on your fork. GitHub offers **Delete branch** on the merged pull request page; otherwise use the fork's **Branches** page.
+- Delete the local branch and update `main`:
+
+```bash
+git checkout main
+git pull
+git branch -d author-eng1102-lessons
+```
+
+### 11.3 Start the next lesson from the synced `main`
+
+Create a new topic branch for each lesson or course change. Never continue on a merged branch, and never work directly on `main`.
+
+```bash
+git checkout main
+git pull
+git checkout -b author-eng1102-lesson-2
+```
+
+### Why this matters
+
+A **Contribute** pull request compares your fork's branch against upstream `main`. If you commit directly to your fork's `main`, every later pull request carries all accumulated commits and files — including generated scaffolding — so reviewers see a noisy, unreviewable diff. That is exactly what happened with the earlier fork pull requests. Syncing `main` and using a fresh topic branch for each lesson keeps every pull request limited to the intended change.
+
+> [!WARNING]
+> If you have already committed to your fork's `main`, do not try to fix it by merging the topic branch into `main`. Sync `main` with upstream first, then move your work onto a new topic branch created from the synced `main`.
